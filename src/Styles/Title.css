@@ -1,0 +1,103 @@
+.titleTags{
+display: flex;
+flex-direction: row;
+background-color: #F4F4F4;
+flex-wrap: wrap;
+
+}
+
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-items: center;
+    justify-content: space-around;
+}
+.tags{
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.tagslist{
+
+list-style: none;
+display: flex;
+flex-direction: row;
+gap: 50px;
+flex-wrap: wrap;
+
+
+
+}
+
+.tagslist li {
+     border: 1px solid black;
+    box-shadow: -3px 3px  black;   
+    font-size: 22px;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+}
+
+
+
+.liVerde{
+    background-color: #E2F1E8;
+}
+
+.lirosso{
+    background-color: #F9E1E1;
+}
+
+.liGiallo{
+    background-color: #F9F4E1;
+    
+}
+
+@media (max-width:1025px ) {
+    .titleTags{
+        display: flex;
+        flex-direction: column;
+       }
+    
+        .tagslist{
+         display: flex;
+         flex-direction: row;
+         
+         gap: 10px;
+         padding-left: 0;
+         text-align: center;
+         align-items: center;
+        } 
+
+    
+}
+
+@media (max-width: 768px) {
+    .titleTags{
+        display: none;
+    }
+   /* .titleTags{
+    display: flex;
+    flex-direction: column;
+   }
+
+    .tagslist{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     padding-left: 0;
+     text-align: center;
+     align-items: center;
+    } */
+
+    
+}

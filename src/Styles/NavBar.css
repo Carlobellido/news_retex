@@ -1,6 +1,7 @@
 .Vediamo {
     display: flex;
     flex-direction: column;
+    
 }
 
 .First {
@@ -40,23 +41,128 @@
     border-bottom: 1px solid black;
     text-align: center;
     ;
-    
-  
-    
+
+
+
 }
 
-.menu{
+.menu {
     border-right: 1px solid black;
     display: flex;
     padding: 20px;
-    
+
 }
 
-.ricerca{
+.ricerca {
     border-left: 1px solid black;
     padding: 20px;
     display: flex;
+}
+
+.third{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size:20px;
+    font-weight: 800;
+    border-bottom: 1px solid black;
+    flex-wrap: wrap;
+    
+    
+}
+
+.content{
+    display: flex;
+    flex: 2;
+    padding-left: 25px;
+}
+
+.opzioniContent{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.opzioniContent li{
+    text-align: center;
+
+}
+
+.opzioniContent {
+    cursor: pointer;
+}  
+
+
+.selected {
+    text-decoration: underline red 8px solid;
+}
+
+.toggle{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    padding-right: 40px;
 
     
-    
+}
+
+.togglePhoto{
+    font-size: 30px;
+
+}
+
+
+@media (max-width: 768px) {
+    .third {
+        flex-direction: column; 
+        align-items: center;
+        font-size: 18px;
+    }
+
+    .opzioniContent {
+        display: flex;
+        justify-content: center; 
+        gap: 10px; 
+        padding-left: 0;
+
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .content{
+        padding-left: 0;
+        
+    }
+
+    .selected {
+        text-decoration: none;
+        background-color: grey;
+        color: white;
+    }
+
+    .opzioniContent li{
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: -3px 3px  black;   
+    font-size: 25px;
+    border-radius: 3px;
+ }
+
+    .Opzioni_destra{
+        display: none;
+        flex: 0;
+    }
+    .Opzioni1_sinistra{
+        text-align: center;
+        flex: 1;
+        justify-content: center;
+        
+    }
 }
