@@ -1,0 +1,62 @@
+.Vediamo {
+    display: flex;
+    flex-direction: column;
+}
+
+.First {
+    display: flex;
+    gap: 20px;
+    padding-left: 50px;
+    flex-direction: row !important;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-right: 50px;
+
+}
+
+.First p {
+    font-size: 18px;
+    font-weight: 800;
+    color: #000000;
+}
+
+.Opzioni1_sinistra {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Opzioni_destra {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    ;
+    
+  
+    
+}
+
+.menu{
+    border-right: 1px solid black;
+    display: flex;
+    padding: 20px;
+    
+}
+
+.ricerca{
+    border-left: 1px solid black;
+    padding: 20px;
+    display: flex;
+
+    
+    
+}
