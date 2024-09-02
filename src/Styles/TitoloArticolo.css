@@ -1,0 +1,32 @@
+.Testo_articolo{
+    display: flex;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    align-items: center;
+
+    
+}
+
+.boh{
+    display: flex;
+    justify-content: left;
+    max-width: 823px;
+    height: 108px;
+}
+
+
+@media (max-width: 768px) {
+.Testo_articolo{
+    font-size: 30px;
+    flex-wrap: wrap;
+}
+    
+}
+
+
+
+

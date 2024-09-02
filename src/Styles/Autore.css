@@ -1,0 +1,32 @@
+.autore-card{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: .8rem;
+
+   
+}
+.autore-card-header{
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+    flex-direction: row;
+}
+.autore-card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: center;
+    gap: 4px;
+    
+}
+
+
+
+.autore-card-avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+    ;
+}
+
