@@ -1,0 +1,46 @@
+.Supporto{
+    display: flex;
+    background-color:#F4F1DE ;
+    height: 214px;
+}
+
+.fraseSupporto{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.fraseSupporto h1{
+    display: flex;
+    align-items: center;
+}
+
+.Contributos{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: end;
+    padding-right:30px ;
+    gap: 15px;
+
+}
+
+.anchorSup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {
+    .Supporto{
+        height: 100px;
+    }
+    .fraseSupporto{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+
+}

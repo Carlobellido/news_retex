@@ -119,7 +119,7 @@ function NavBar() {
 
 
                             <div class='menu3-2-2'>
-                                <p>Agenda / Eventia</p>
+                                <p>Agenda / Eventi</p>
                             </div>
 
                         </div>
