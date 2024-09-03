@@ -1,0 +1,116 @@
+.row2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.row2-parte1 {
+    display: flex;
+    flex: 1 1 10%;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/collasso.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #fff;
+    gap: 30px;
+    justify-content: flex-end;
+    padding: 20px;
+    padding-bottom: 60px;
+
+
+
+}
+
+.row2-parte2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid #fff;
+
+
+
+}
+
+.row2-parte2-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets//bistrot.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid #fff;
+    justify-content: flex-end;
+    padding: 20px;
+    padding-bottom: 60px;
+    gap: 30px;
+
+
+
+
+}
+
+.row2-parte2-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets//kiev.png);
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-end;
+    padding: 20px;
+    padding-bottom: 60px;
+    gap: 30px;
+
+
+}
+
+.freccia {
+    display: flex;
+    color: #fff;
+    font-size: 30px;
+    background: none;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .row2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .row2-parte2-1 , .row2-parte2-2 , .row2-parte1{
+        gap: 15px;
+    }
+
+    /* .row2-parte2-1 , .row2-parte2-2{
+        background-image: none;
+    } */
+
+    
+}

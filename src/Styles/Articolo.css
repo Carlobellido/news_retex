@@ -1,14 +1,14 @@
 .container-Articolo{
-    background-image: url(../assets/foto1.jpg);
+    background-image:  linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url(../assets/foto1.jpg);
     background-size: cover;
     width: auto;
-    height: 506px;
+    min-height:50vh;
     background-position: center;
     display: flex;
     flex-direction: column;
     padding-left: 50px;
     padding-right: 50px;
-    gap: 10px;
+    gap: 5px;
     
 }
 
@@ -19,7 +19,7 @@
     align-items: end;
     flex-direction: column;
     align-items: flex-start;
-    gap: 30px;
+    gap: 20px;
 
 }
 
@@ -41,16 +41,6 @@
 
 } */
 
-.articolo-tagSpan{
-    border: 1px solid #ffffff;
-    padding: 4px;
-    border-radius: 5px;
-    background-color: #ffffff;
-    font-weight: 600;
-    font-weight: bold;
-    font-size: 20px;
-
-}
 
 @media (max-width: 768px) {
 

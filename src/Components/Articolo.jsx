@@ -3,6 +3,7 @@ import Autore from '../Components/Autore'
 import Titolo from '../Components/Titolo'
 import '../Styles/Articolo.css'
 import autore1 from '../assets/autore1.jpg'
+import Tagspan from './Tagspan'
 function Articolo() {
     return (
         <>
@@ -11,7 +12,7 @@ function Articolo() {
                 {/* <div className="tagSpan">
                 </div> */}
                 <div className='articolo-titolo'>
-                <span className='articolo-tagSpan'>Migranti</span>
+                <Tagspan tagspan='Migranti'/>
                 <Titolo titolo_articolo="Rocella Jonica , la Lampedusa che l'Italia ignora"/>
                 </div>
                 <div className='articolo-autore'>

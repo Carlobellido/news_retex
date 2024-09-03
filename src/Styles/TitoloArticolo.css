@@ -1,6 +1,6 @@
 .Testo_articolo{
     display: flex;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     color: #ffffff;
     margin: 0;
@@ -14,15 +14,18 @@
 .boh{
     display: flex;
     justify-content: left;
-    max-width: 823px;
-    height: 108px;
+    max-width: 100vh;
+    /* height: 108px; */
 }
 
 
 @media (max-width: 768px) {
 .Testo_articolo{
-    font-size: 30px;
+    font-size: 20px;
     flex-wrap: wrap;
+    align-items: end;
+    
+
 }
     
 }
