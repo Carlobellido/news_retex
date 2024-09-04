@@ -35,11 +35,15 @@
 
 @media (max-width: 768px) {
     .Supporto{
-        height: 100px;
+        height: 100%;
     }
     .fraseSupporto{
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
+        padding-left: 10px;
+    }
+    .Contributos{
+        font-size: 10px;
     }
     
 

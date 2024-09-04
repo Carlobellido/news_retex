@@ -19,17 +19,21 @@
     font-size: 18px;
     font-weight: 800;
     color: #000000;
+
 }
 
 .Opzioni1_sinistra {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    cursor: pointer;
 }
 
 .Opzioni_destra {
     display: flex;
     flex-direction: row;
+    cursor: pointer;
+
 }
 
 
@@ -83,10 +87,13 @@
     gap: 20px;
     list-style-type: none;
     flex-wrap: wrap;
+
 }
 
 .opzioniContent li{
     text-align: center;
+    cursor: pointer;
+
 
 }
 
